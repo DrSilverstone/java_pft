@@ -31,9 +31,18 @@
       <file leaf-file-name="MyFirstProgram.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sandbox/src/main/java/ru/stqua/pft/sandbox/MyFirstProgram.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="0">
+=======
+<<<<<<< Updated upstream
+            <state relative-caret-position="60">
+>>>>>>> Stashed changes
               <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="44" />
               <folding />
+=======
+            <state relative-caret-position="68">
+              <caret line="4" column="44" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="44" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -41,9 +50,14 @@
       <file leaf-file-name="task2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sandbox/src/main/java/ru/stqua/pft/sandbox/task2.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="195">
               <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
+=======
+            <state relative-caret-position="272">
+              <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -51,12 +65,17 @@
       <file leaf-file-name="Point.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sandbox/src/main/java/ru/stqua/pft/sandbox/Point.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="255">
               <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="e#216#217#0" expanded="true" />
                 <element signature="e#305#306#0" expanded="true" />
               </folding>
+=======
+            <state relative-caret-position="153">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -77,8 +96,13 @@
       <file leaf-file-name="Rectangle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sandbox/src/main/java/ru/stqua/pft/sandbox/Rectangle.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="195">
               <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+=======
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+>>>>>>> Stashed changes
               <folding>
                 <element signature="e#212#213#0" expanded="true" />
                 <element signature="e#250#251#0" expanded="true" />
@@ -90,9 +114,19 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sandbox/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="60">
               <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+=======
+<<<<<<< Updated upstream
+            <state relative-caret-position="30">
+              <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+>>>>>>> Stashed changes
               <folding />
+=======
+            <state relative-caret-position="34">
+              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -473,9 +507,20 @@
       </list>
     </option>
   </component>
+<<<<<<< Updated upstream
   <component name="ProjectFrameBounds">
+<<<<<<< Updated upstream
     <option name="x" value="94" />
     <option name="y" value="40" />
+=======
+    <option name="x" value="33" />
+    <option name="y" value="187" />
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="64" />
+    <option name="y" value="24" />
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
     <option name="width" value="1304" />
     <option name="height" value="840" />
   </component>
@@ -932,8 +977,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sandbox/src/main/java/ru/stqua/pft/sandbox/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="195">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+=======
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+>>>>>>> Stashed changes
           <folding>
             <element signature="e#212#213#0" expanded="true" />
             <element signature="e#250#251#0" expanded="true" />
@@ -943,9 +993,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sandbox/src/main/java/ru/stqua/pft/sandbox/MyFirstProgram.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="0">
+=======
+<<<<<<< Updated upstream
+        <state relative-caret-position="60">
+>>>>>>> Stashed changes
           <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="44" />
           <folding />
+=======
+        <state relative-caret-position="68">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="44" />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
@@ -960,22 +1019,48 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
+=======
+    <entry file="file://$PROJECT_DIR$/sandbox/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+        <state relative-caret-position="30">
+          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding />
+=======
+        <state relative-caret-position="153">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+>>>>>>> Stashed changes
+        </state>
+      </provider>
+    </entry>
+>>>>>>> Stashed changes
     <entry file="file://$PROJECT_DIR$/sandbox/src/main/java/ru/stqua/pft/sandbox/task2.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="195">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
+=======
+        <state relative-caret-position="34">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sandbox/src/main/java/ru/stqua/pft/sandbox/Point.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="255">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="e#216#217#0" expanded="true" />
             <element signature="e#305#306#0" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="272">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>

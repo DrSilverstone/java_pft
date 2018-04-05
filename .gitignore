@@ -17,3 +17,5 @@ gradle-app.setting
 .idea/workspace.xml
 sandbox/.DS_Store
 sandbox/.DS_Store
+
+sandbox/build\.gradle
