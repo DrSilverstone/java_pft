@@ -26,34 +26,38 @@ public class ContactCreationTest {
     
     @Test
     public void ContactCreationTest() {
-        wd.get("http://localhost/addressbook/edit.php");
+        wd.get("http://localhost/addressbook/");
         wd.findElement(By.name("user")).click();
+        wd.findElement(By.name("user")).clear();
         wd.findElement(By.name("user")).sendKeys("admin");
         wd.findElement(By.name("pass")).click();
+        wd.findElement(By.name("pass")).clear();
         wd.findElement(By.name("pass")).sendKeys("secret");
-        wd.findElement(By.id("content")).click();
         wd.findElement(By.xpath("//form[@id='LoginForm']/input[3]")).click();
+        wd.findElement(By.linkText("add new")).click();
+        wd.findElement(By.name("theform")).click();
         wd.findElement(By.name("firstname")).click();
         wd.findElement(By.name("firstname")).clear();
         wd.findElement(By.name("firstname")).sendKeys("name");
-        wd.findElement(By.name("middlename")).click();
-        wd.findElement(By.name("middlename")).clear();
-        wd.findElement(By.name("middlename")).sendKeys("a");
+
         wd.findElement(By.name("lastname")).click();
         wd.findElement(By.name("lastname")).clear();
         wd.findElement(By.name("lastname")).sendKeys("surname");
-        wd.findElement(By.name("theform")).click();
-        wd.findElement(By.xpath("//div[@id='content']//label[.='Telephone']")).click();
-        wd.findElement(By.name("theform")).click();
-        wd.findElement(By.name("home")).click();
+
+
+        wd.findElement(By.name("company")).click();
+        wd.findElement(By.name("company")).clear();
+        wd.findElement(By.name("company")).sendKeys("company");
+
         wd.findElement(By.name("mobile")).click();
         wd.findElement(By.name("mobile")).clear();
         wd.findElement(By.name("mobile")).sendKeys("444");
+
         wd.findElement(By.name("email")).click();
         wd.findElement(By.name("email")).clear();
-        wd.findElement(By.name("email")).sendKeys("ww@e.ti");
+        wd.findElement(By.name("email")).sendKeys("fff@v.ti");
         wd.findElement(By.xpath("//div[@id='content']/form/input[21]")).click();
-        wd.findElement(By.linkText("home page")).click();
+        wd.findElement(By.linkText("home")).click();
     }
     
     @AfterMethod
