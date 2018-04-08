@@ -3,7 +3,7 @@ package ru.stqua.pft.addressbook.appmanager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import ru.stqua.pft.addressbook.model.ContactData;
-import ru.stqua.pft.addressbook.model.GroupData;
+
 
 public class ContactHelper extends HelperBase {
 
@@ -11,9 +11,12 @@ public class ContactHelper extends HelperBase {
         super(wd);
     }
 
-    public void initContactCreation() {
-        click(By.linkText("add new"));
-    }
+    public void chooseContact() {wd.findElement(By.xpath("//table[@id='maintable']//td[8]/a/img")).click();}
+    //        wd.findElement(By.xpath("//table[@id='maintable']/tbody/tr[2]/td[8]/a/img")).click();
+
+    public void deleteContact(){wd.findElement(By.xpath("//div[@id='content']/form[2]/input[2]")).click();}
+
+    public void updateContact(){wd.findElement(By.xpath("//div[@id='content']/form[1]/input[22]")).click();}
 
     public void fillContactForm(ContactData contactData) {
 
@@ -28,6 +31,8 @@ public class ContactHelper extends HelperBase {
         click(By.xpath("//div[@id='content']/form/input[21]"));
     }
 
+    public void initContactCreation() { click(By.linkText("add new")); }
 
+    //public void selectContact() {chouseElement();}
 
 }
