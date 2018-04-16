@@ -16,12 +16,15 @@ public class ContactHelper extends HelperBase {
     public void klickModify() {wd.findElement(By.xpath("//table[@id='maintable']/tbody/tr[2]/td[8]")).click();}
 
 
-    public void deleteContact(){wd.findElement(By.xpath("//div[@id='content']/form[2]/input[2]")).click();}
+    public void deleteContact() {wd.findElement(By.xpath("//div[@id='content']/form[2]/input[2]")).click();}
 
-    public void updateContact(){wd.findElement(By.xpath("//div[@id='content']/form[1]/input[22]")).click();}
-    
+    public void updateContact() {wd.findElement(By.xpath("//div[@id='content']/form[1]/input[22]")).click();}
 
-    //public void killAlert(){wd.switchTo().alert().accept();}
+    public void selectContact() { click(By.name("selected[]")); }
+
+    public void deleteContactSecondType() {wd.findElement(By.xpath("//div[@id='content']/form[2]/div[2]/input")).click();}
+
+    public void killAlert() {wd.switchTo().alert().accept();}
 
 
     public void fillContactForm(ContactData contactData, boolean creation) {
