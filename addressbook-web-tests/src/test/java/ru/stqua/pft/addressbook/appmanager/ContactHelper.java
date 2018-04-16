@@ -13,11 +13,16 @@ public class ContactHelper extends HelperBase {
         super(wd);
     }
 
-    public void chooseContact() {wd.findElement(By.xpath("//table[@id='maintable']//td[8]/a/img")).click();}
+    public void klickModify() {wd.findElement(By.xpath("//table[@id='maintable']/tbody/tr[2]/td[8]")).click();}
+
 
     public void deleteContact(){wd.findElement(By.xpath("//div[@id='content']/form[2]/input[2]")).click();}
 
     public void updateContact(){wd.findElement(By.xpath("//div[@id='content']/form[1]/input[22]")).click();}
+    
+
+    //public void killAlert(){wd.switchTo().alert().accept();}
+
 
     public void fillContactForm(ContactData contactData, boolean creation) {
 
@@ -40,4 +45,29 @@ public class ContactHelper extends HelperBase {
 
     public void initContactCreation() { click(By.linkText("add new")); }
 
+    public void createContact(ContactData contact, boolean creation) {
+
+        initContactCreation();
+        fillContactForm(contact, creation);
+        submitContactCreation();
+    }
+
+    public boolean isThereAContact() {
+        return isElementPresent(By.xpath("//table[@id='maintable']//td[8]/a/img"));
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

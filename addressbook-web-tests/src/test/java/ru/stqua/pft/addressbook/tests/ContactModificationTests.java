@@ -9,10 +9,20 @@ public class ContactModificationTests extends TestBase {
     public void testGroupModification(){
 
         app.getNavigationHelper().gotoHomePage();
-        app.getContactHelper().chooseContact();
 
-        app.getContactHelper().fillContactForm(new ContactData("update", "surname", "company",
-                        "444", "fff@v.ti", null), false);
+        if (! app.getContactHelper().isThereAContact()){
+
+            // if we wont to check posibility to modify contact, but no contact exist, I'm create the contact
+
+            app.getContactHelper().createContact(new ContactData("name", "surname", "company",
+                    "444", "fff@v.ti", "test1"), true);
+        }
+
+        app.getNavigationHelper().gotoHomePage();
+        app.getContactHelper().klickModify();
+
+        app.getContactHelper().fillContactForm(new ContactData("updated", "updated", "updated",
+                        "334", "fff@v.ti", null), false);
 
         app.getContactHelper().updateContact();
         app.getNavigationHelper().gotoHomePage();
